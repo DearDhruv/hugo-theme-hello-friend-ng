@@ -3,6 +3,7 @@
 - [behance](https://simpleicons.org/?q=behance)
 - [codechef](https://simpleicons.org/?q=codechef)
 - [codepen](https://simpleicons.org/?q=codepen)
+- [dev](https://simpleicons.org/?q=devto)
 - [deviantart](https://simpleicons.org/?q=deviantart)
 - [discord](https://simpleicons.org/?q=discord)
 - [docker](https://simpleicons.org/?q=docker)
@@ -32,3 +33,4 @@
 - [xampp](https://simpleicons.org/?q=xampp)
 - [xmpp](https://simpleicons.org/?q=xmpp)
 - youtube
+- [matrix](https://simpleicons.org/?q=matrix)

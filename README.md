@@ -6,6 +6,25 @@
 
 This theme was highly inspired by the [hello-friend](https://github.com/panr/hugo-theme-hello-friend) and [hermit](https://github.com/Track3/hermit). A lot of kudos for theier great work.
 
+---
+## Table of Contents
+
+- [Features](#features)
+- [How to start](#how-to-start)
+- [How to configure](#how-to-configure)
+- [More](#more-things)
+  - [Built in shortcodes](#built-in-shortcodes)
+    - [image](#image)
+  - [Code highlighting](#code-highlighting)
+  - [Favicon](#favicon)
+- [Social Icons](#social-icons)
+- [Known issues](#known-issues)
+- [How to edit the theme](#how-to-edit-the-theme)
+- [Changelog](CHANGELOG.md)
+- [Sponsoring](#sponsoring)
+- [Licence](#licence)
+
+---
 ## Features
 
 - Theming: **dark/light mode**, depending on your preferences (dark is default, but you can change it)
@@ -35,6 +54,7 @@ $ git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git th
 ## How to configure
 
 The theme doesn't require any advanced configuration. Just copy the following config file.
+To see all possible configurations, [check the docs](docs/config.md).
 Note: There are more options to configure. Take a look into the `config.toml` in `exampleSite`.
 
 ``` toml
@@ -42,6 +62,7 @@ baseurl      = "localhost"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
+paginate     = 10
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -59,9 +80,6 @@ theme        = "hello-friend-ng"
   description = "My new homepage or blog"
   keywords = "homepage, blog"
   images = [""]
-
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
@@ -100,7 +118,7 @@ theme        = "hello-friend-ng"
 
 Of course you are able to use all default shortcodes from hugo (https://gohugo.io/content-management/shortcodes/).
 
-#### `image`
+#### image
 
 Properties:
 
@@ -131,7 +149,7 @@ By default the theme is using PrismJS to color your code syntax. All you need to
 
 Check the [docs](docs/favicons.md).
 
-## Available Social Icons:
+## Social Icons:
 
 Take a look into this [list](docs/svgs.md)
 
